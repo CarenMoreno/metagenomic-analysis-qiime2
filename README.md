@@ -3,20 +3,31 @@ A detailed qiime2 pipeline for 16S rRNA microbiome and metagenomic data analysis
 
 # Structure
 ```text
-RNA-seq-unsupervised-learning/
+Actividad3_QIIME2/
 │
-├── data/
-│   ├── sample_gene_expression.csv   (small dataset)
-│   ├── labels.csv
+├── metadata/
+│   └── sample-metadata.tsv
 │
 ├── scripts/
-│   └── rna_seq_unsupervised_analysis.Rmd
+│   └── actividad3_qiime2.sh
 │
 ├── results/
-│   └── rna_seq_unsupervised_analysis.html
+│   ├── table.qzv
+│   ├── taxonomy.qzv
+│   ├── taxa-bar-plots.qzv
+│   ├── faith-pd-group-significance.qzv
+│   ├── shannon-group-significance.qzv
+│   ├── evenness-group-significance.qzv
+│   ├── unweighted-unifrac-transect-name-significance.qzv
+│   ├── ancom-extract-group-no.qzv
+│   └── l6-ancom-extract-group-no.qzv
 │
-├── README.md
-├── .gitignore
+├── figures/
+│   ├── alpha_diversity.pdf
+│   ├── beta_diversity.pdf
+│   └── taxonomy_levels.pdf
+│
+└── Informe_Actividad3.pdf
 ```
 
 # License 
