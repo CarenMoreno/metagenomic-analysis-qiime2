@@ -135,7 +135,7 @@ After DADA2 denoising, **54 samples** and **1,085 ASVs** were retained.
 
 Alpha diversity was evaluated using three complementary metrics across all categorical metadata variables.
 
-#### 🌿 Richness — Faith Phylogenetic Diversity
+#### 🌿 Richness - Faith Phylogenetic Diversity
 
 | Variable | Kruskal-Wallis p-value | Significant? |
 |---|---|---|
@@ -147,7 +147,7 @@ Alpha diversity was evaluated using three complementary metrics across all categ
 
 ---
 
-#### ⚖️ Evenness — Pielou's Evenness
+#### ⚖️ Evenness - Pielou's Evenness
 
 | Variable | Kruskal-Wallis p-value | Significant? |
 |---|---|---|
@@ -165,7 +165,7 @@ Significant for both **vegetation** (p = 0.000218) and **transect-name** (p = 0.
 
 ---
 
-### 3 · Beta Diversity — PERMANOVA
+### 3 · Beta Diversity - PERMANOVA
 
 Analysis performed on **Unweighted UniFrac** distance matrix, variable: `transect-name`
 
@@ -196,7 +196,7 @@ Three representative ASVs were compared between Greengenes and NCBI BLASTn:
 
 ---
 
-### 5 · Differential Abundance — ANCOM
+### 5 · Differential Abundance - ANCOM
 
 ANCOM was applied at two levels using `extract-group-no` as the grouping variable:
 
