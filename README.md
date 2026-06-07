@@ -12,7 +12,7 @@ A detailed qiime2 pipeline for 16S rRNA microbiome and metagenomic data analysis
 
 <p align="center">
   <em>Master's in Bioinformatics · UNIR · Secuenciación y Ómicas de Próxima Generación</em><br>
-  <strong>Caren Moreno</strong> · 2025–2026
+  <strong>Caren Moreno</strong> · 2026
 </p>
 
 ---
