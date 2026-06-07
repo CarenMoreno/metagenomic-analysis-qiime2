@@ -155,9 +155,9 @@ Alpha diversity was evaluated using three complementary metrics across all categ
 
 | Variable | Kruskal-Wallis p-value | Significant? |
 |---|---|---|
-| **vegetation** | **p = 0.000072** | ✅ Yes |
-| transect-name | p = 0.631 | ❌ No |
-| extract-group-no | p = 0.161 | ❌ No |
+| **vegetation** | **p = 0.000072** | *Yes* |
+| transect-name | p = 0.631 | No |
+| extract-group-no | p = 0.161 | No |
 
 > **vegetation** is the variable most strongly associated with differences in **microbial richness**. Soils with vegetation show significantly higher phylogenetic diversity, likely due to rhizosphere effects and organic matter inputs that generate additional ecological niches.
 
@@ -167,7 +167,7 @@ Alpha diversity was evaluated using three complementary metrics across all categ
 
 | Variable | Kruskal-Wallis p-value | Significant? |
 |---|---|---|
-| **transect-name** | **p = 0.002** | ✅ Yes |
+| **transect-name** | **p = 0.002** | *Yes* |
 | vegetation | p = 0.089 | ❌ No |
 | extract-group-no | p = 0.102 | ❌ No |
 
