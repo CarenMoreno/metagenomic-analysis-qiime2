@@ -252,8 +252,9 @@ bash commands_atacama.sh
 ---
 
 <p align="center">
-  Made with 🔬 by Caren Moreno · UNIR MUBioinfo · 2026
+  Made with 🔬 by Caren Moreno · MSc in Bioinformatics UNIR · 2026
 </p>
 
-# License 
-License MIT
+## License
+
+This project is distributed under the MIT  License.
