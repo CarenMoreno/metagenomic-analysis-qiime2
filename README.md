@@ -3,31 +3,54 @@ A detailed qiime2 pipeline for 16S rRNA microbiome and metagenomic data analysis
 
 # Structure
 ```text
-Actividad3_QIIME2/
+metagenomic-analysis-qiime2/
 │
-├── metadata/
-│   └── sample-metadata.tsv
+├── README.md
+├── LICENSE
 │
-├── scripts/
-│   └── actividad3_qiime2.sh
+├── data/
+│   ├── metadata/
+│   │   └── sample-metadata.tsv
+│   │
+│   └── processed/
+│       ├── table.qza
+│       ├── rep-seqs.qza
+│       ├── rooted-tree.qza
+│       └── taxonomy.qza
 │
 ├── results/
-│   ├── table.qzv
-│   ├── taxonomy.qzv
-│   ├── taxa-bar-plots.qzv
-│   ├── faith-pd-group-significance.qzv
-│   ├── shannon-group-significance.qzv
-│   ├── evenness-group-significance.qzv
-│   ├── unweighted-unifrac-transect-name-significance.qzv
-│   ├── ancom-extract-group-no.qzv
-│   └── l6-ancom-extract-group-no.qzv
+│   ├── alpha-diversity/
+│   │   ├── faith-pd-group-significance.qzv
+│   │   ├── shannon-group-significance.qzv
+│   │   └── evenness-group-significance.qzv
+│   │
+│   ├── beta-diversity/
+│   │   ├── unweighted-unifrac-transect-name-significance.qzv
+│   │   └── unweighted-unifrac-emperor-depth.qzv
+│   │
+│   ├── taxonomy/
+│   │   ├── taxonomy.qzv
+│   │   └── taxa-bar-plots.qzv
+│   │
+│   └── ancom/
+│       ├── ancom-extract-group-no.qzv
+│       └── l6-ancom-extract-group-no.qzv
 │
 ├── figures/
-│   ├── alpha_diversity.pdf
-│   ├── beta_diversity.pdf
-│   └── taxonomy_levels.pdf
+│   ├── alpha_faith_pd.png
+│   ├── alpha_shannon.png
+│   ├── alpha_evenness.png
+│   ├── permanova.png
+│   ├── taxa_barplot_level2.png
+│   ├── taxa_barplot_level6.png
+│   ├── ancom_otu.png
+│   └── ancom_genus.png
 │
-└── Informe_Actividad3.pdf
+├── scripts/
+│   └── qiime2_workflow.sh
+│
+└── report/
+    └── Informe_Metagenomica_QIIME2.pdf
 ```
 
 # License 
