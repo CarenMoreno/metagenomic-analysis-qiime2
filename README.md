@@ -251,17 +251,52 @@ This repository contains a complete QIIME2-based metagenomics workflow applied t
 ```
 metagenomic-analysis-qiime2/
 │
-├── commands_atacama.sh         # All QIIME2 commands (fully annotated)
-├── sample-metadata.tsv         # Sample metadata (49 samples after filtering)
 ├── README.md
+├── LICENSE
+│
+├── data/
+│   ├── metadata/
+│   │   └── sample-metadata.tsv
+│   │
+│   └── processed/
+│       ├── table.qza
+│       ├── rep-seqs.qza
+│       ├── rooted-tree.qza
+│       └── taxonomy.qza
 │
 ├── results/
-│   ├── alpha-diversity/        # Faith PD, Shannon, Pielou Evenness plots
-│   ├── beta-diversity/         # PCoA plots, PERMANOVA results
-│   ├── taxonomy/               # Taxa bar plots, taxonomy table
-│   └── ancom/                  # Differential abundance results
+│   ├── alpha-diversity/
+│   │   ├── faith-pd-group-significance.qzv
+│   │   ├── shannon-group-significance.qzv
+│   │   └── evenness-group-significance.qzv
+│   │
+│   ├── beta-diversity/
+│   │   ├── unweighted-unifrac-transect-name-significance.qzv
+│   │   └── unweighted-unifrac-emperor-depth.qzv
+│   │
+│   ├── taxonomy/
+│   │   ├── taxonomy.qzv
+│   │   └── taxa-bar-plots.qzv
+│   │
+│   └── ancom/
+│       ├── ancom-extract-group-no.qzv
+│       └── l6-ancom-extract-group-no.qzv
 │
-└── visualizations/             # Key .qzv files (view at view.qiime2.org)
+├── figures/
+│   ├── alpha_faith_pd.png
+│   ├── alpha_shannon.png
+│   ├── alpha_evenness.png
+│   ├── permanova.png
+│   ├── taxa_barplot_level2.png
+│   ├── taxa_barplot_level6.png
+│   ├── ancom_otu.png
+│   └── ancom_genus.png
+│
+├── scripts/
+│   └── qiime2_workflow.sh
+│
+└── report/
+    └── Informe_Metagenomica_QIIME2.pdf
 ```
 
 ---
