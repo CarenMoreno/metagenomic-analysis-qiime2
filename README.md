@@ -141,11 +141,11 @@ Alpha diversity was evaluated using three complementary metrics across all categ
       <sub><b>Vegetation</b></sub>
     </td>
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/alpha_faith_pd_transect-name.png" width="300" alt="Variable: transect-name"><br>
+      <img src="figures/alpha_faith_pd_transect-name.png" width="320" alt="Variable: transect-name"><br>
       <sub><b>Transect-name</b></sub>
     </td>
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/alpha_faith_pd_extract_group_no.png" width="300" alt="Variable: extract_group_no"><br>
+      <img src="figures/alpha_faith_pd_extract_group_no.png" width="320" alt="Variable: extract_group_no"><br>
       <sub><b>Extract_group_no</b></sub>
     </td>
   </tr>
