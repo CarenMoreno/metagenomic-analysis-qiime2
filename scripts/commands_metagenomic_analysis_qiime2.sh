@@ -1,10 +1,9 @@
-#!/bin/bash
-# ============================================================
-# QIIME2 Metagenomic Analysis — Atacama Desert Soils
+# ----------------------------------------------------------
+# QIIME2 Metagenomic Analysis - Atacama Desert Soils
 # Curso: Secuenciación y Ómicas de Próxima Generación
-# Autora: Caren Moreno | UNIR MUBioinfo 2025-2026
+# Autora: Caren Moreno |  MSc in Bioinformatics UNIR 2026-2027
 # QIIME2 versión: 2023.9
-# ============================================================
+# ----------------------------------------------------------
 
 # Activar entorno
 conda activate qiime2-2023.9
@@ -215,7 +214,7 @@ qiime composition ancom \
   --m-metadata-column extract-group-no \
   --o-visualization l6-ancom-extract-group-no.qzv
 
-# ============================================================
-# FIN DEL ANÁLISIS
+# ----------------------------------------------------------
+# FIN
 # Visualizar archivos .qzv en: https://view.qiime2.org
-# ============================================================
+# ----------------------------------------------------------
