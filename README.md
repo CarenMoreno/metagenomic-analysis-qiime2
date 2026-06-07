@@ -178,6 +178,21 @@ Alpha diversity was evaluated using three complementary metrics across all categ
 #### 📈 Shannon Index
 
 Significant for both **vegetation** (p = 0.000218) and **transect-name** (p = 0.030), consistent with Shannon capturing both richness and evenness components.
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/alpha_shannon_vegetation.png" width="300" alt="Variable: vegetation"><br>
+      <sub><b>Vegetation</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/alpha_shannon_transect_name.png" width="300" alt="Variable: transect-name"><br>
+      <sub><b>Transect-name</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/alpha_shannon_extract_group_no.png" width="300" alt="Variable: extract_group_no"><br>
+      <sub><b>Extract_group_no</b></sub>
+    </td>
+  </tr>
 
 ---
 
