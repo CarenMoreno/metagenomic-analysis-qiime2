@@ -134,7 +134,7 @@ After DADA2 denoising, **54 samples** and **1,085 ASVs** were retained.
 ### 2 · Alpha Diversity
 
 Alpha diversity was evaluated using three complementary metrics across all categorical metadata variables.
-
+![Faith PD](figures/alpha_faith_pd.png)
 #### 🌿 Richness - Faith Phylogenetic Diversity
 
 | Variable | Kruskal-Wallis p-value | Significant? |
