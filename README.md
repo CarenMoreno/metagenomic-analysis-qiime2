@@ -1,6 +1,3 @@
-# metagenomic-analysis-qiime2
-A detailed qiime2 pipeline for 16S rRNA microbiome and metagenomic data analysis
-
 # 🧬 Metagenomic Analysis of Atacama Desert Soils with QIIME2
 
 <p align="center">
