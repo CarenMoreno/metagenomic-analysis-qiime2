@@ -137,7 +137,7 @@ Alpha diversity was evaluated using three complementary metrics across all categ
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr style="border: none;">
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/alpha_faith_pd_vegetation.png" width="300" alt="Variable: vegetation"><br>
+      <img src="figures/alpha_faith_pd_vegetation.png" width="320" alt="Variable: vegetation"><br>
       <sub><b>Vegetation</b></sub>
     </td>
     <td align="center" style="border: none; padding: 10px;">
