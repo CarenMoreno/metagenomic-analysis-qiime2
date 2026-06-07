@@ -249,12 +249,11 @@ bash commands_atacama.sh
 - DeSantis TZ, et al. (2006). Greengenes, a chimera-checked 16S rRNA gene database. *Applied and Environmental Microbiology*, 72(7), 5069–5072.
 - Mandal S, et al. (2015). Analysis of composition of microbiomes: a novel method for studying microbial composition. *Microbial Ecology in Health and Disease*, 26.
 
+## License
+
+This project is distributed under the MIT  License.
 ---
 
 <p align="center">
   Made with 🔬 by Caren Moreno · MSc in Bioinformatics UNIR · 2026
 </p>
-
-## License
-
-This project is distributed under the MIT  License.
