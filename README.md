@@ -165,6 +165,22 @@ Alpha diversity was evaluated using three complementary metrics across all categ
 
 #### ⚖️ Evenness - Pielou's Evenness
 
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/alpha_evenness_vegetation.png" width="300" alt="Variable: vegetation"><br>
+      <sub><b>Vegetation</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/alpha_evenness_transect_name.png" width="300" alt="Variable: transect-name"><br>
+      <sub><b>Transect-name</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/alpha_evenness_extract_group_no.png" width="300" alt="Variable: extract_group_no"><br>
+      <sub><b>Extract_group_no</b></sub>
+    </td>
+  </tr>
+
 | Variable | Kruskal-Wallis p-value | Significant? |
 |---|---|---|
 | **transect-name** | **p = 0.002** | *Yes* |
