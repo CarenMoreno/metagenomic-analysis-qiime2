@@ -178,6 +178,7 @@ Alpha diversity was evaluated using three complementary metrics across all categ
 #### 📈 Shannon Index
 
 Significant for both **vegetation** (p = 0.000218) and **transect-name** (p = 0.030), consistent with Shannon capturing both richness and evenness components.
+
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr style="border: none;">
     <td align="center" style="border: none; padding: 10px;">
@@ -193,7 +194,7 @@ Significant for both **vegetation** (p = 0.000218) and **transect-name** (p = 0.
       <sub><b>Extract_group_no</b></sub>
     </td>
   </tr>
-
+  
 ---
 
 ### 3 · Beta Diversity - PERMANOVA
