@@ -280,7 +280,7 @@ ANCOM was applied at two levels using `extract-group-no` as the grouping variabl
       <sub><b>Level 6: Genus</b></sub>
     </td>
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/taxa_barplot_l6_legend.png" width="160" height="70" alt="Genus"><br>
+      <img src="figures/taxa_barplot_l6_legend.png" width="160" height="130" alt="Genus"><br>
       <sub><b>Legend</b></sub>
     </td>
   </tr>
