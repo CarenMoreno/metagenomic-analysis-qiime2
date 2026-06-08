@@ -313,7 +313,7 @@ ANCOM was applied at two levels using `extract-group-no` as the grouping variabl
 conda activate qiime2-2023.9
 
 # 3. Run the full pipeline
-bash commands_atacama.sh
+commands_metagenomic_qiime2.sh
 
 # 4. Visualize .qzv outputs at:
 # https://view.qiime2.org
