@@ -215,7 +215,7 @@ Analysis performed on **Unweighted UniFrac** distance matrix, variable: `transec
 
 | Parameter | Value |
 |---|---|
-| Test | PERMANOVA |
+| Test | Permanova |
 | Sample size | 49 |
 | pseudo-F | 1.680 |
 | **p-value** | **0.011** |
