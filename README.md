@@ -78,35 +78,34 @@ metagenomic-analysis-qiime2/
 ## 🔬 Workflow Summary
 
 ```
-Raw paired-end reads (EMP format)
+Raw FASTQ
+     │
+     ▼
+Import QIIME2
+     │
+     ▼
+Quality Control
+(DADA2)
+     │
+     ▼
+ASV Table + Representative Sequences
+     │
+ ┌───┴─────────────┐
+ ▼                 ▼
+Phylogeny      Taxonomy
+(Tree)         (Greengenes)
+ │                 │
+ ▼                 ▼
+Alpha/Beta     Taxonomic
+Diversity      Profiles
+ │                 │
+ └──────┬──────────┘
+        ▼
+Differential Abundance
+(ANCOM)
         │
         ▼
-  [Step 1] Import → emp-paired-end-sequences.qza
-        │
-        ▼
-  [Step 2] Demultiplex → demux-full.qza
-        │
-        ▼
-  [Step 3] Subsample 30% → demux-subsample.qza
-        │
-        ▼
-  [Step 4] Filter samples < 100 reads → demux.qza
-        │
-        ▼
-  [Step 5] DADA2 denoising → table.qza · rep-seqs.qza
-        │         (trim-left 13nt · trunc-len 150nt)
-        ▼
-  [Step 6] Phylogenetic tree → rooted-tree.qza
-        │         (MAFFT alignment + FastTree)
-        ▼
-  [Step 7] Alpha & Beta diversity → core-metrics-results/
-        │         (rarefaction depth: 400 reads · 49/54 samples retained)
-        ▼
-  [Step 8] Taxonomic classification → taxonomy.qza
-        │         (Greengenes 13_8 · Naïve Bayes · 515F/806R)
-        ▼
-  [Step 9] Differential abundance → ANCOM results
-                  (genus level: Euzebya identified)
+Biological Interpretation
 ```
 
 ---
