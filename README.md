@@ -255,6 +255,26 @@ Three representative ASVs were compared between Greengenes and NCBI BLASTn:
 ---
 
 ### 5 · Differential Abundance - ANCOM
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/taxa_barplot_l2.png" width="375" alt="Phylum"><br>
+      <sub><b>Level 2: Phylum</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/taxa_barplot_l2_legend.png" width="375" alt="Genus"><br>
+      <sub><b>Legend</b></sub>
+    </td>    
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/taxa_barplot_l6.png" width="375" alt="Phylum"><br>
+      <sub><b>Level 6: Genus</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/taxa_barplot_l6_legend.png" width="160" height="550" alt="Genus"><br>
+      <sub><b>Legend</b></sub>
+    </td>
+  </tr>
+</table>
 
 ANCOM was applied at two levels using `extract-group-no` as the grouping variable:
 
