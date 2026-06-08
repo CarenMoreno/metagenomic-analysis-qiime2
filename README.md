@@ -286,6 +286,19 @@ ANCOM was applied at two levels using `extract-group-no` as the grouping variabl
 |---|---|---|
 | ***Euzebya*** | **212** | k__Bacteria · p__Actinobacteria · c__Nitriliruptoria · o__Euzebyales · f__Euzebyaceae |
 
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/ancom_otu.png" width="400" alt="Phylum"><br>
+      <sub><b>Level 2: Phylum</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/ancom_genus.png" width="400" alt="Genus"><br>
+      <sub><b>Level 6: Genus</b></sub>
+    </td>
+  </tr>
+</table>
+
 > *Euzebya* was virtually absent in all groups except group K. This Actinobacteria genus has been described in arid soils and can tolerate extreme UV radiation and low humidity - conditions characteristic of the Atacama Desert.
 
 ---
