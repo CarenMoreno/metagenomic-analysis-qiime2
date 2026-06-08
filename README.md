@@ -258,7 +258,7 @@ Three representative ASVs were compared between Greengenes and NCBI BLASTn:
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr style="border: none;">
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/taxa_barplot_l2.png" width="375" alt="Phylum"><br>
+      <img src="figures/taxa_barplot_l2.png" width="400" alt="Phylum"><br>
       <sub><b>Level 2: Phylum</b></sub>
     </td>
     <td align="center" style="border: none; padding: 10px;">
@@ -266,7 +266,7 @@ Three representative ASVs were compared between Greengenes and NCBI BLASTn:
       <sub><b>Legend</b></sub>
     </td>    
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/taxa_barplot_l6.png" width="375" alt="Phylum"><br>
+      <img src="figures/taxa_barplot_l6.png" width="400" alt="Phylum"><br>
       <sub><b>Level 6: Genus</b></sub>
     </td>
     <td align="center" style="border: none; padding: 10px;">
