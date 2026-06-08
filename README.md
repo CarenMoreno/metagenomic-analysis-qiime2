@@ -266,7 +266,7 @@ ANCOM was applied at two levels using `extract-group-no` as the grouping variabl
       <sub><b>Level 2: Phylum</b></sub>
     </td>
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/taxa_barplot_l2_legend.png" width="175" alt="Legend"><br>
+      <img src="figures/taxa_barplot_l2_legend.png" width="160" alt="Legend"><br>
       <sub><b>Legend</b></sub>
     </td>
   </tr>
