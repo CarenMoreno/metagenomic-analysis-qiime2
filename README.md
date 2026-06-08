@@ -161,6 +161,7 @@ Alpha diversity was evaluated using three complementary metrics across all categ
 
 #### ⚖️ Evenness - Pielou's Evenness
 
+
 | Variable | Kruskal-Wallis p-value | Significant? |
 |---|---|---|
 | **transect-name** | **p = 0.002** | *Yes* |
@@ -182,6 +183,7 @@ Alpha diversity was evaluated using three complementary metrics across all categ
       <sub><b>Extract_group_no</b></sub>
     </td>
   </tr>
+</table>
 
 > **transect-name** is the variable most strongly associated with differences in **community evenness**. Baquedano and Yungay transects differ significantly in how evenly microbial abundances are distributed among taxa.
 
@@ -206,6 +208,7 @@ Significant for both **vegetation** (p = 0.000218) and **transect-name** (p = 0.
       <sub><b>Extract_group_no</b></sub>
     </td>
   </tr>
+</table>
 
 ---
 
