@@ -337,5 +337,5 @@ This project is distributed under the MIT  License.
 ---
 
 <p align="center">
-  Made with 🔬 by Caren Moreno · MSc in Bioinformatics UNIR · 2026
+  Made with by Caren Moreno · MSc in Bioinformatics UNIR · 2026
 </p>
