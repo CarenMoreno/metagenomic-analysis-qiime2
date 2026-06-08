@@ -255,6 +255,12 @@ Three representative ASVs were compared between Greengenes and NCBI BLASTn:
 ---
 
 ### 5 · Differential Abundance - ANCOM
+
+ANCOM was applied at two levels using `extract-group-no` as the grouping variable:
+
+- **ASV level**: top ASVs showed W values of 1081, 1062, and 1039
+- **Genus level (level 6)**: single significantly differential taxon identified:
+
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr style="border: none;">
     <td align="center" style="border: none; padding: 10px;">
@@ -276,41 +282,11 @@ Three representative ASVs were compared between Greengenes and NCBI BLASTn:
   </tr>
 </table>
 
-ANCOM was applied at two levels using `extract-group-no` as the grouping variable:
-
-- **ASV level**: top ASVs showed W values of 1081, 1062, and 1039
-<table align="center" style="border: none; border-collapse: collapse;">
-  <tr style="border: none;">
-    <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/taxa_barplot_l2.png" width="425" alt="Phylum"><br>
-      <sub><b>Level 2: Phylum</b></sub>
-    </td>
-    <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/taxa_barplot_l2_legend.png" width="170" alt="Legend"><br>
-      <sub><b>Legend</b></sub>
-    </td>
-  </tr>
-</table>
-
-- **Genus level (level 6)**: single significantly differential taxon identified:
-<table align="center" style="border: none; border-collapse: collapse;">
-  <tr style="border: none;">
-    <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/taxa_barplot_l6.png" width="425" alt="Phylum"><br>
-      <sub><b>Level 6: Genus</b></sub>
-    </td>
-    <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/taxa_barplot_l6_legend.png" width="160" height="550" alt="Genus"><br>
-      <sub><b>Legend</b></sub>
-    </td>
-  </tr>
-</table>
-
 | Taxon | W value | Classification |
 |---|---|---|
 | ***Euzebya*** | **212** | k__Bacteria · p__Actinobacteria · c__Nitriliruptoria · o__Euzebyales · f__Euzebyaceae |
 
-> *Euzebya* was virtually absent in all groups except group K. This Actinobacteria genus has been described in arid soils and can tolerate extreme UV radiation and low humidity — conditions characteristic of the Atacama Desert.
+> *Euzebya* was virtually absent in all groups except group K. This Actinobacteria genus has been described in arid soils and can tolerate extreme UV radiation and low humidity - conditions characteristic of the Atacama Desert.
 
 ---
 
