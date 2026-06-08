@@ -130,6 +130,14 @@ After DADA2 denoising, **54 samples** and **1,085 ASVs** were retained.
 
 ### 2 · Alpha Diversity
 
+#### 🌿 Richness - Faith Phylogenetic Diversity
+
+| Variable | Kruskal-Wallis p-value | Significant? |
+|---|---|---|
+| **vegetation** | **p = 0.000072** | *Yes* |
+| transect-name | p = 0.631 | No |
+| extract-group-no | p = 0.161 | No |
+
 Alpha diversity was evaluated using three complementary metrics across all categorical metadata variables.
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr style="border: none;">
@@ -147,14 +155,6 @@ Alpha diversity was evaluated using three complementary metrics across all categ
     </td>
   </tr>
 </table>
-
-#### 🌿 Richness - Faith Phylogenetic Diversity
-
-| Variable | Kruskal-Wallis p-value | Significant? |
-|---|---|---|
-| **vegetation** | **p = 0.000072** | *Yes* |
-| transect-name | p = 0.631 | No |
-| extract-group-no | p = 0.161 | No |
 
 > **vegetation** is the variable most strongly associated with differences in **microbial richness**. Soils with vegetation show significantly higher phylogenetic diversity, likely due to rhizosphere effects and organic matter inputs that generate additional ecological niches.
 
