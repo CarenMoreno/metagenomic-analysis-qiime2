@@ -259,6 +259,19 @@ Three representative ASVs were compared between Greengenes and NCBI BLASTn:
 ANCOM was applied at two levels using `extract-group-no` as the grouping variable:
 
 - **ASV level**: top ASVs showed W values of 1081, 1062, and 1039
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/taxa_barplot_l2.png" width="400" alt="Phylum"><br>
+      <sub><b>Level 2: Phylum</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/taxa_barplot_l2_legend.png" width="400" alt="Genus"><br>
+      <sub><b>Level 6: Genus</b></sub>
+    </td>
+  </tr>
+</table>
+
 - **Genus level (level 6)**: single significantly differential taxon identified:
 
 | Taxon | W value | Classification |
