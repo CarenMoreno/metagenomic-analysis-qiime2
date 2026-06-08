@@ -270,7 +270,7 @@ Three representative ASVs were compared between Greengenes and NCBI BLASTn:
       <sub><b>Level 6: Genus</b></sub>
     </td>
     <td align="center" style="border: none; padding: 10px;">
-      <img src="figures/taxa_barplot_l6_legend.png" width="160" height="450" alt="Genus"><br>
+      <img src="figures/taxa_barplot_l6_legend.png" width="160" height="400" alt="Genus"><br>
       <sub><b>Legend</b></sub>
     </td>
   </tr>
