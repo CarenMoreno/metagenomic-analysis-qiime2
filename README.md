@@ -223,6 +223,19 @@ Analysis performed on **Unweighted UniFrac** distance matrix, variable: `transec
 | Permutations | 999 |
 | Baquedano vs. Yungay (pairwise) | p = 0.016 |
 
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/Permanova_baquedano.png" width="400" alt="Baquedano"><br>
+      <sub><b>Baquedano</b></sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="figures/Permanova_yungay.png" width="400" alt="Yungay"><br>
+      <sub><b>Yungay</b></sub>
+    </td>
+  </tr>
+</table>
+
 > Microbial community **composition differs significantly between transects** (p = 0.011). The Unweighted UniFrac metric indicates these differences are driven primarily by which lineages are present rather than by shifts in relative abundances.
 
 ---
